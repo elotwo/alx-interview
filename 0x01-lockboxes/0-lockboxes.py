@@ -1,6 +1,14 @@
 #!/usr/bin/python3
+"""
+unlockall
+"""
+
+
 def canUnlockAll(boxes):
-    n = len(boxes);
+    """
+    nlockall
+    """
+    n = len(boxes)
     opened_boxes = set([0])
     stack = [0]
     while stack:
